@@ -80,7 +80,9 @@
                         <td>Taxe</td>
                         <td>
 
-
+                            <?=
+                                $taxes;
+                            ?>
                         </td>
 
                     </tr>

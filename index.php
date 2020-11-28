@@ -76,6 +76,7 @@
                                 echo $_POST['salaire'];
                             ?>
                         </td>
+                    </tr>
                     <tr>
                         <td>Taxe</td>
                         <td>
@@ -86,6 +87,17 @@
                         </td>
 
                     </tr>
+                    <tr>
+                        <td>Salaire nette</td>
+                        <td>
+                            <?php
+                            if (isset($_POST["salaire"])) {
+                                $nette = $_POST["salaire"] - $taxes;
+                                echo $nette;
+                            }
+                            ?>
+                        </td>
+
                     </tr>
 
                 </table>

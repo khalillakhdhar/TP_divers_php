@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-sm">
                 <form>
-                    <table>
+                    <table class="table table-borderless">
                         <tr>
                             <td colspan="2">
                                 <h1>Calcule de salaire</h1>

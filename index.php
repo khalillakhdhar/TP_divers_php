@@ -9,25 +9,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm">
-                <form>
-                    <table>
-                        <tr>
-                            <td>Nom:</td>
-                            <td><input type="text" name="nom"></td>
-                        </tr>
-                        <tr>
-                            <td>Prenom:</td>
-                            <td><input type="text" name="prenom"></td>
-                        </tr>
-                        <tr>
-                            <td>Salaire Brute</td>
-                            <td><input type="text" name="salaire"></td>
-                        </tr>
-                    </table>
-
-
-
-                </form>
+                One of three columns
             </div>
             <div class="col-sm">
                 One of three columns
@@ -36,7 +18,25 @@
         </div>
     </div>
 
+    <form>
+        <table>
+            <tr>
+                <td>Nom:</td>
+                <td><input type="text" name="nom"></td>
+            </tr>
+            <tr>
+                <td>Prenom:</td>
+                <td><input type="text" name="prenom"></td>
+            </tr>
+            <tr>
+                <td>Salaire Brute</td>
+                <td><input type="text" name="salaire"></td>
+            </tr>
+        </table>
 
+
+
+    </form>
 
 
 </body>

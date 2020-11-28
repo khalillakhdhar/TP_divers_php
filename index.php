@@ -12,6 +12,11 @@
                 <form>
                     <table>
                         <tr>
+                            <td colspan="2">
+                                <h1>Calcule de salaire</h1>
+                            </td>
+                        </tr>
+                        <tr>
                             <td>Nom:</td>
                             <td><input type="text" name="nom"></td>
                         </tr>

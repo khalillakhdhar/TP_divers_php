@@ -40,7 +40,7 @@
                 </form>
             </div>
             <div class="col-sm">
-                <table class="table table-borderless">
+                <table class="table table-bordered">
                     <tr>
                         <td colspan="2">
                             <h1>Détailles de paiement</h1>
@@ -54,6 +54,15 @@
 
                         </td>
 
+                    </tr>
+                    <tr>
+                        <td>Salaire originale</td>
+                        <td>
+                            <?php
+                            if (isset($_POST['salaire']))
+                                echo $_POST['salaire'];
+                            ?>
+                        </td>
                     </tr>
 
                 </table>

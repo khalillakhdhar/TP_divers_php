@@ -3,6 +3,19 @@
 <head>
     <title>Salaire</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <?php
+    $taxes = 0;
+    if (isset($_POST['salaire'])) {
+
+        $s = $_POST['salaire'];
+        if ($s < 500)
+            $taxes = 0;
+        else if ($s < 1500)
+            $taxes = $s * 0.09;
+        else
+            $taxes = $s * 0.15;
+    }
+    ?>
 </head>
 
 <body>
@@ -63,6 +76,14 @@
                                 echo $_POST['salaire'];
                             ?>
                         </td>
+                    <tr>
+                        <td>Taxe</td>
+                        <td>
+
+
+                        </td>
+
+                    </tr>
                     </tr>
 
                 </table>

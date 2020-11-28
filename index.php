@@ -12,21 +12,21 @@
                 <form>
                     <table class="table table-borderless">
                         <tr>
-                            <td colspan="2">
+                            <td align="center" colspan="2">
                                 <h1>Calcule de salaire</h1>
                             </td>
                         </tr>
                         <tr>
                             <td>Nom:</td>
-                            <td><input type="text" name="nom"></td>
+                            <td><input type="text" required placeholder="votre nom ici" class="form-control" name="nom"></td>
                         </tr>
                         <tr>
                             <td>Prenom:</td>
-                            <td><input type="text" name="prenom"></td>
+                            <td><input type="text" required placeholder="votre prenom ici" class="form-control" name="prenom"></td>
                         </tr>
                         <tr>
                             <td>Salaire Brute</td>
-                            <td><input type="text" name="salaire"></td>
+                            <td><input type="text" class="form-control" required placeholder="votre salaire ici" name="salaire"></td>
                         </tr>
                         <tr>
                             <td align="center" colspan="2">

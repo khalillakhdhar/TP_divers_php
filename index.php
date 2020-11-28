@@ -9,7 +9,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm">
-                <form>
+                <form action="index.php" method="POST">
                     <table class="table table-borderless">
                         <tr>
                             <td align="center" colspan="2">
@@ -40,7 +40,23 @@
                 </form>
             </div>
             <div class="col-sm">
-                One of three columns
+                <table class="table table-borderless">
+                    <tr>
+                        <td colspan="2">
+                            <h1>Détailles de paiement</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Nom complet</td>
+                        <td><?php
+                            if (isset($_POST['nom']))
+                                echo $_POST['nom'] . " " . $_POST['prenom']; ?>
+
+                        </td>
+
+                    </tr>
+
+                </table>
             </div>
 
         </div>

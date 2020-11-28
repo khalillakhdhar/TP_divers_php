@@ -28,6 +28,11 @@
                             <td>Salaire Brute</td>
                             <td><input type="text" name="salaire"></td>
                         </tr>
+                        <tr>
+                            <td align="center" colspan="2">
+                                <input type="submit" class="btn btn-primary" value="calculer">
+                            </td>
+                        </tr>
                     </table>
 
 
